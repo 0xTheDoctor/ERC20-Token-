@@ -21,8 +21,8 @@ contract ERC20 is IERC20 {
 
     uint256 public override totalSupply = 1000;
     uint8 public decimals = 0;
-    string public name = "TestToken";
-    string public symbol = "TTK";
+    string public name = "MyTestToken";
+    string public symbol = "MTTK";
 
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowances;
